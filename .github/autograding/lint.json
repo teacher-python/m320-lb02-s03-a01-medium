@@ -1,0 +1,10 @@
+{
+  "files": [
+    "medium.py",
+    "song.py",
+    "podcast.py",
+    "audiobook.py"
+  ],
+  "ignore": [],
+  "max": 4
+}
