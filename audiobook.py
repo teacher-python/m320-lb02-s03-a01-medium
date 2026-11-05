@@ -39,7 +39,7 @@ class Audiobook(Medium):
     def narrator(self, value):
         """ Set the narrator of the audiobook """
         if not isinstance(value, str) or len(value) < 1:
-            raise TypeError
+            raise ValueError
         self._narrator = value
 
     @property
@@ -51,5 +51,5 @@ class Audiobook(Medium):
     def speed(self, value):
         """ Set the playback speed of the audiobook """
         if not isinstance(value, (int, float)) or not 0.5 <= value <= 2.0:
-            raise TypeError
+            raise ValueError
         self._speed = value

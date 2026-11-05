@@ -39,7 +39,7 @@ class Song(Medium):
     def artist(self, value):
         """ Set the artist of the song """
         if not isinstance(value, str) or len(value) < 1:
-            raise TypeError
+            raise ValueError
         self._artist = value
 
     @property
@@ -51,5 +51,5 @@ class Song(Medium):
     def bpm(self, value):
         """ Set the beats per minute of the song """
         if not isinstance(value, int) or not 40 <= value <= 240:
-            raise TypeError
+            raise ValueError
         self._bpm = value

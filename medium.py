@@ -32,7 +32,7 @@ class Medium(ABC):
     def title(self, value):
         """ Set the title of the medium """
         if not isinstance(value, str) or len(value) < 1:
-            raise TypeError
+            raise ValueError
         self._title = value
 
     @property
@@ -44,7 +44,7 @@ class Medium(ABC):
     def length(self, value):
         """ Set the length of the medium in seconds """
         if not isinstance(value, int) or not 1 <= value <= 36000:
-            raise TypeError
+            raise ValueError
         self._length = value
 
     @abstractmethod

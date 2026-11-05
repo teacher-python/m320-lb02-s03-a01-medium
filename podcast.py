@@ -39,7 +39,7 @@ class Podcast(Medium):
     def episode(self, value):
         """ Set the number of the episode """
         if not isinstance(value, int) or value < 1:
-            raise TypeError
+            raise ValueError
         self._episode = value
 
     @property
@@ -51,5 +51,5 @@ class Podcast(Medium):
     def ad_seconds(self, value):
         """ Set the length of the advertisements in seconds """
         if not isinstance(value, int) or not 0 <= value <= 600:
-            raise TypeError
+            raise ValueError
         self._ad_seconds = value
