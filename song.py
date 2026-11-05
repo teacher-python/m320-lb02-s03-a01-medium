@@ -1,2 +1,5 @@
+""" Provides the class Song """
+
+
 class Song:
-    pass
+    """ a song as medium of a playlist """

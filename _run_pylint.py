@@ -61,6 +61,7 @@ def run_pylint(files, pylint_config):
 
 
 def main():
+    """Runs pylint on the files configured in lint.json."""
     config_path = '.github/autograding/lint.json'
     pylint_config_path = '.github/autograding/pylintrc'
 

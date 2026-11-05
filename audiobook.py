@@ -1,2 +1,5 @@
+""" Provides the class Audiobook """
+
+
 class Audiobook:
-    pass
+    """ an audiobook as medium of a playlist """

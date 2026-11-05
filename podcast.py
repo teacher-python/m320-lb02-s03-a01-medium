@@ -1,2 +1,5 @@
+""" Provides the class Podcast """
+
+
 class Podcast:
-    pass
+    """ a podcast episode as medium of a playlist """
