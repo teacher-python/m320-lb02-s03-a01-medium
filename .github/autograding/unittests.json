@@ -1,1 +1,284 @@
-[]
+[
+  {
+    "name": "test_medium_is_abstract",
+    "function": "test_medium_is_abstract",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_private_attributes",
+    "function": "test_medium_private_attributes",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_properties",
+    "function": "test_medium_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_setters_valid",
+    "function": "test_medium_setters_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_setters_invalid",
+    "function": "test_medium_setters_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_abstract_calc_duration",
+    "function": "test_medium_abstract_calc_duration",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_create_full",
+    "function": "test_medium_create_full",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_invalid_title",
+    "function": "test_medium_invalid_title",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_invalid_length",
+    "function": "test_medium_invalid_length",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_medium_format_duration",
+    "function": "test_medium_format_duration",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_medium_equal",
+    "function": "test_medium_equal",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_song_create_full",
+    "function": "test_song_create_full",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_create_default",
+    "function": "test_song_create_default",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_invalid_artist",
+    "function": "test_song_invalid_artist",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_invalid_bpm",
+    "function": "test_song_invalid_bpm",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_private_attributes",
+    "function": "test_song_private_attributes",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_properties",
+    "function": "test_song_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_setters_valid",
+    "function": "test_song_setters_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_setters_invalid",
+    "function": "test_song_setters_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_calc_duration",
+    "function": "test_song_calc_duration",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_subclass_of_medium",
+    "function": "test_song_subclass_of_medium",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_missing_arguments",
+    "function": "test_song_missing_arguments",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_song_genre",
+    "function": "test_song_genre",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_podcast_create_full",
+    "function": "test_podcast_create_full",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_create_default",
+    "function": "test_podcast_create_default",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_invalid_episode",
+    "function": "test_podcast_invalid_episode",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_invalid_ad_seconds",
+    "function": "test_podcast_invalid_ad_seconds",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_private_attributes",
+    "function": "test_podcast_private_attributes",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_properties",
+    "function": "test_podcast_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_setters_valid",
+    "function": "test_podcast_setters_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_setters_invalid",
+    "function": "test_podcast_setters_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_calc_duration",
+    "function": "test_podcast_calc_duration",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_subclass_of_medium",
+    "function": "test_podcast_subclass_of_medium",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_missing_arguments",
+    "function": "test_podcast_missing_arguments",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_podcast_calc_ad_share",
+    "function": "test_podcast_calc_ad_share",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_audiobook_create_full",
+    "function": "test_audiobook_create_full",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_create_default",
+    "function": "test_audiobook_create_default",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_invalid_narrator",
+    "function": "test_audiobook_invalid_narrator",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_invalid_speed",
+    "function": "test_audiobook_invalid_speed",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_private_attributes",
+    "function": "test_audiobook_private_attributes",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_properties",
+    "function": "test_audiobook_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_setters_valid",
+    "function": "test_audiobook_setters_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_setters_invalid",
+    "function": "test_audiobook_setters_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_calc_duration",
+    "function": "test_audiobook_calc_duration",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_subclass_of_medium",
+    "function": "test_audiobook_subclass_of_medium",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_missing_arguments",
+    "function": "test_audiobook_missing_arguments",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_audiobook_chapters",
+    "function": "test_audiobook_chapters",
+    "timeout": 10,
+    "points": 0
+  }
+]
